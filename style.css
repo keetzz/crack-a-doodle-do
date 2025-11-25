@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+    .container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        .navbar {
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            margin-bottom: 12px;
+            background-color: rgb(15, 16, 62);
+            border: 3px rgb(160, 159, 158) solid;
+            border-radius: 15px;
+            align-items: center;
+            height: 50px;
+
+            a {
+                color: rgb(255, 255, 255);
+                margin-right: 72px;
+                font-weight: bold;
+                font-size: 18px;
+                text-decoration: none;
+            }
+        }
+
+        .img {
+            img {
+                width: 200px;
+                height: 250px;
+            }
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            .text{
+                width: 300px;
+            }
+        }
+
+
+    }
+    @media only screen and (min-width:768px){
+        .hm{
+            
+        }
+    }
+    @media only screen and(min-width:600px){
+
+    }
+
+}
