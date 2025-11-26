@@ -29,7 +29,7 @@
             img {
                 width: 200px;
                 height: 250px;
-                border: 5px greenyellow groove;
+                border: 5px rgb(0, 0, 0) groove;
             }
             display: flex;
             justify-content: center;
